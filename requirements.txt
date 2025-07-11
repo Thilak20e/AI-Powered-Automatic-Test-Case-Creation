@@ -2,3 +2,4 @@ streamlit
 python-docx
 pdfplumber==0.11.6 
 pdfminer.six==20250327 
+matplotlib
