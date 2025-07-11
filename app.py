@@ -243,7 +243,7 @@ def main(json_file_path="data.json"):
                 program = extract_text(uploaded_file)
                 st.code(program, language=language.lower())
                 st.write("File name: ", uploaded_file.name)
-                st.image(Image.open("Images/logo.png"), use_column_width=True)
+                st.image(Image.open("logo.png"), use_column_width=True)
                 st.success("Program uploaded successfully!")
                 st.title("Unit Test Cases")
                 st.subheader("The following are the unit test cases for the program:")
